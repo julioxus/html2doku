@@ -15,7 +15,7 @@ RUN git clone https://github.com/julioxus/html2doku.git
 
 # Mover directorios
 RUN mv html2doku/* /var/www/html
-RUN rmdir html2doku
+RUN rm -rf html2doku
 RUN rm /var/www/html/index.html
 
 # Dar permisos
