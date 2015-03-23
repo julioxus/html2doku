@@ -22,5 +22,5 @@ RUN rm /var/www/html/index.html
 RUN chown -R www-data:www-data /var/www
 RUN chmod -R 777 /var/www/html/files
 
-# Reiniciar servidor Apache
-RUN service apache2 restart
+# Exponer puerto de Apache
+EXPOSE 80
