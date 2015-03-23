@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<h1>Conversor HTML a Doku</h1>
-		<form method="post" action="conversor.php">
+		<form method="post" action="/conversor.php">
 		    <label for="url">Dirección de la web: </label>
 		    <input type="text" id="url" name="url"/>
 			<br />
@@ -24,7 +24,7 @@
 
 	
 	<h1>Conversor Office a Doku</h1>
-	<form method="post" action="conversorWord.php" enctype="multipart/form-data">
+	<form method="post" action="/conversorWord.php" enctype="multipart/form-data">
 		Selecciona un documento Office (Word, Excel, etc):
 		<br/>
 		<input type="file" name="fileToUpload" id="fileToUpload">
