@@ -1,0 +1,30 @@
+body{
+	text-align: center;
+}
+
+#contenedorForm{
+	width: 600px;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding: 20px;
+	border: 1px solid;
+}
+
+#contenedorResultado{
+	width: 960px;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding: 20px;
+	border: 1px solid;
+}
+
+#mensaje{
+	color: green;
+	font-weight: bold;
+}
+
+footer{
+	margin: 50px;
+}
