@@ -4,8 +4,11 @@
 	<head>
 		<meta charset="UTF-8" />
      	<title>HTML2Doku</title>
+		<link href="bootstrap.min.css" rel="stylesheet">
+		<link href="main.css" rel="stylesheet">
 	</head>
 	</body>
+	<div id="contenedorResultado">
 <?php
 	header('Content-Type: text/html; charset=UTF-8');
 	$target_dir = "files/";
@@ -40,5 +43,6 @@
 		}
 	}
 ?>
+	</div>
 	</body>
 </html>
