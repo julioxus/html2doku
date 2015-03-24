@@ -13,6 +13,7 @@ body{
 
 #contenedorResultado{
 	width: 960px;
+	text-align: left;
 	margin: auto;
 	margin-bottom: 50px;
 	margin-top: 50px;
