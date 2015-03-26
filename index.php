@@ -17,6 +17,13 @@
 					<input type="text" class="form-control" id="url" name="url"/>
 				</div>
 				<div class="form-group">
+                	<div class="form-group">
+					<label for="html">HTML crudo: </label>
+					<textarea cols="60" rows="10" name="html" id="html">
+Inserta aquí directamente el código HTML si se prefiere en lugar de la dirección web. Esto puede ser útil cuando la página web utiliza sistemas de detección de scripts.</textarea>
+				</div>
+                </div>
+				<div class="form-group">
 					<label for="id">ID del contenedor: <span id="mensaje">(Opcional)</span></label>
 					<input type="text" id="id" class="form-control" name="id"/>
 				</div>

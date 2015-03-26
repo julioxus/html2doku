@@ -23,7 +23,12 @@
 	$id = $_POST["id"];
 	$class = $_POST["class"];
 
-	$html = file_get_html($url);
+	if($url != null){
+		$html = file_get_html($url);
+	}
+	else{
+		$html = str_get_html($_POST["html"]);
+	}
 	
 	if($id != null ){
 		$id = "#".$id;
@@ -61,7 +66,6 @@
 		}
 
 	}
-	
 ?>
 	</div>
 
